@@ -6,7 +6,7 @@ export class PixabayApi {
   constructor() {
     this.page = 1;
     this.q = null;
-    this.per_page = 30;
+    this.per_page = 40;
   }
 
   findPicture() {

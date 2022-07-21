@@ -9,7 +9,7 @@
 
 .search-form {
   width: 100%;
-  background-color: rgb(173, 230, 181);
+  background-color: rgba(217, 135, 226, 0.997);
   padding: 20px 0;
 }
 .form-input {
@@ -67,8 +67,18 @@
 .load-more:hover,
 .load-more:focus {
   background-color: #4227ae;
+  box-shadow: 10px 10px 10px #0000001f, 0 10px 10px #0000000f,
+    10px 10px 10px #00000029, 0 10px 10px blue;
 }
 
 .is-hidden {
   display: none;
+}
+.gallery__link {
+  text-decoration: none;
+}
+.gallery__link:hover,
+.gallery__link:hover {
+  box-shadow: 10px 10px 10px #0000001f, 0 10px 10px #0000000f,
+    10px 10px 10px #00000029, 0 10px 10px blue;
 }
